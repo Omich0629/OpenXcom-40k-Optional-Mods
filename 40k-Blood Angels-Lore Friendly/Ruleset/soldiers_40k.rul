@@ -1,0 +1,6 @@
+soldiers:
+  - type: STR_SOLDIER_JOAN
+    femaleFrequency: 0
+  - type: STR_SOLDIER
+    femaleFrequency: 0
+
