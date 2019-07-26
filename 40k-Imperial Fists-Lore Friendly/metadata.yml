@@ -1,0 +1,6 @@
+name: "Imperial Fists - Lore Friendly"
+version: 0.9b
+author: "Omich0629."
+description: "All new Astartes will be generated with gender=0 (male). Requires Original Imperial Fists mod."
+id: 40kImperialFistsLoreFriendly
+master: "40k"
