@@ -1,0 +1,1455 @@
+##################################################################################################################################################
+##################################################################BLOOD ANGELS##################################################################
+##################################################################################################################################################
+armors:
+  - type: CENT_ARMOR_UC #CENT
+    customArmorPreviewIndex: [167, 168, 169]
+    layersDefaultPrefix: 1
+    layersSpecificPrefix:
+      1: CENT
+    layersDefinition:
+      M0: ["0", "CENTMF", "M0_FACE"]
+      M1: ["0", "CENTMF", "M1_FACE"]
+      M2: ["0", "CENTMF", "M2_FACE"]
+      M3: ["0", "CENTMF", "M3_FACE"]
+      M4: ["0", "CENTMF", "M4_FACE"]
+      M5: ["0", "CENTMF", "M5_FACE"]
+      F0: ["0", "CENTMF", "F0_FACE"]
+      F1: ["0", "CENTMF", "F1_FACE"]
+      F2: ["0", "CENTMF", "F2_FACE"]
+      F3: ["0", "CENTMF", "F3_FACE"]
+      F4: ["0", "CENTMF", "F4_FACE"]
+      F5: ["0", "CENTMF", "F5_FACE"]
+  - type: BIKE_ARMOR_UC #BIKE
+    customArmorPreviewIndex: [173, 174, 175]
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: BIKE
+    layersDefinition:
+      M0: ["0", "BIKEM", "M0_FACE"]
+      M1: ["0", "BIKEM", "M1_FACE"]
+      M2: ["0", "BIKEM", "M2_FACE"]
+      M3: ["0", "BIKEM", "M3_FACE"]
+      M4: ["0", "BIKEM", "M4_FACE"]
+      M5: ["0", "BIKEM", "M5_FACE"]
+      F0: ["0", "BIKEF", "F0_FACE"]
+      F1: ["0", "BIKEF", "F1_FACE"]
+      F2: ["0", "BIKEF", "F2_FACE"]
+      F3: ["0", "BIKEF", "F3_FACE"]
+      F4: ["0", "BIKEF", "F4_FACE"]
+      F5: ["0", "BIKEF", "F5_FACE"]
+  - type: STR_SCOUT_UC #SCOUT
+    customArmorPreviewIndex: 150
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: SCOUT
+      3: GOGGLES
+    layersDefinition:
+      M0: ["0", "ASCOUTM", "M0_FACE", "GOGGLES"]
+      M1: ["0", "ASCOUTM", "M1_FACE", "GOGGLES"]
+      M2: ["0", "ASCOUTMC", "M2_FACE", "GOGGLES"]
+      M3: ["0", "ASCOUTMB", "M3_FACE", "GOGGLES"]
+      M4: ["0", "ASCOUTM", "M4_FACE", "GOGGLES"]
+      M5: ["0", "ASCOUTM", "M5_FACE", "GOGGLES"]
+      F0: ["0", "ASCOUTF", "F0_FACE", "GOGGLES"]
+      F1: ["0", "ASCOUTF", "F1_FACE", "GOGGLES"]
+      F2: ["0", "ASCOUTFC", "F2_FACE", "GOGGLES"]
+      F3: ["0", "ASCOUTFB", "F3_FACE", "GOGGLES"]
+      F4: ["0", "ASCOUTF", "F4_FACE", "GOGGLES"]
+      F5: ["0", "ASCOUTF", "F5_FACE", "GOGGLES"]
+  - type: STR_SCOUTHG_UC #SCOUT HONOR GREEN
+    customArmorPreviewIndex: 164
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    layersDefaultPrefix: CAPE
+    layersSpecificPrefix:
+      1: SCOUTH
+      3: GOGGLES	  
+    layersDefinition:
+      M0: ["CAPEG", "AHSCOUTM", "M0_FACE", "GOGGLES"]
+      M1: ["CAPEG", "AHSCOUTM", "M1_FACE", "GOGGLES"]
+      M2: ["CAPEG", "AHSCOUTM", "M2_FACE", "GOGGLES"]
+      M3: ["CAPEG", "AHSCOUTM", "M3_FACE", "GOGGLES"]
+      M4: ["CAPEG", "AHSCOUTM", "M4_FACE", "GOGGLES"]
+      M5: ["CAPEG", "AHSCOUTM", "M5_FACE", "GOGGLES"]
+      F0: ["CAPEG", "AHSCOUTF", "F0_FACE", "GOGGLES"]
+      F1: ["CAPEG", "AHSCOUTF", "F1_FACE", "GOGGLES"]
+      F2: ["CAPEG", "AHSCOUTF", "F2_FACE", "GOGGLES"]
+      F3: ["CAPEG", "AHSCOUTF", "F3_FACE", "GOGGLES"]
+      F4: ["CAPEG", "AHSCOUTF", "F4_FACE", "GOGGLES"]
+      F5: ["CAPEG", "AHSCOUTF", "F5_FACE", "GOGGLES"]
+  - type: STR_SCOUTHR_UC #SCOUT HONOR DESERT
+    customArmorPreviewIndex: 164
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 
+    layersDefaultPrefix: CAPE
+    layersSpecificPrefix:
+      1: SCOUTH
+      3: GOGGLES
+    layersDefinition:
+      M0: ["CAPER", "AHSCOUTM", "M0_FACE", "GOGGLES"]
+      M1: ["CAPER", "AHSCOUTM", "M1_FACE", "GOGGLES"]
+      M2: ["CAPER", "AHSCOUTM", "M2_FACE", "GOGGLES"]
+      M3: ["CAPER", "AHSCOUTM", "M3_FACE", "GOGGLES"]
+      M4: ["CAPER", "AHSCOUTM", "M4_FACE", "GOGGLES"]
+      M5: ["CAPER", "AHSCOUTM", "M5_FACE", "GOGGLES"]
+      F0: ["CAPER", "AHSCOUTF", "F0_FACE", "GOGGLES"]
+      F1: ["CAPER", "AHSCOUTF", "F1_FACE", "GOGGLES"]
+      F2: ["CAPER", "AHSCOUTF", "F2_FACE", "GOGGLES"]
+      F3: ["CAPER", "AHSCOUTF", "F3_FACE", "GOGGLES"]
+      F4: ["CAPER", "AHSCOUTF", "F4_FACE", "GOGGLES"]
+      F5: ["CAPER", "AHSCOUTF", "F5_FACE", "GOGGLES"]
+  - type: STR_SCOUTHY_UC #SCOUT HONOR DESERT
+    customArmorPreviewIndex: 164 
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5   
+    layersDefaultPrefix: CAPE
+    layersSpecificPrefix:
+      1: SCOUTH
+      3: GOGGLES
+    layersDefinition:
+      M0: ["CAPEY", "AHSCOUTM", "M0_FACE", "GOGGLES"]
+      M1: ["CAPEY", "AHSCOUTM", "M1_FACE", "GOGGLES"]
+      M2: ["CAPEY", "AHSCOUTM", "M2_FACE", "GOGGLES"]
+      M3: ["CAPEY", "AHSCOUTM", "M3_FACE", "GOGGLES"]
+      M4: ["CAPEY", "AHSCOUTM", "M4_FACE", "GOGGLES"]
+      M5: ["CAPEY", "AHSCOUTM", "M5_FACE", "GOGGLES"]
+      F0: ["CAPEY", "AHSCOUTF", "F0_FACE", "GOGGLES"]
+      F1: ["CAPEY", "AHSCOUTF", "F1_FACE", "GOGGLES"]
+      F2: ["CAPEY", "AHSCOUTF", "F2_FACE", "GOGGLES"]
+      F3: ["CAPEY", "AHSCOUTF", "F3_FACE", "GOGGLES"]
+      F4: ["CAPEY", "AHSCOUTF", "F4_FACE", "GOGGLES"]
+      F5: ["CAPEY", "AHSCOUTF", "F5_FACE", "GOGGLES"]
+  - type: STR_SCOUTH_UC #SCOUT HONOR BROWN
+    customArmorPreviewIndex: 164
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5  
+    layersDefaultPrefix: CAPE
+    layersSpecificPrefix:
+      1: SCOUTH
+      3: GOGGLES
+    layersDefinition:
+      M0: ["CAPE", "AHSCOUTM", "M0_FACE", "GOGGLES"]
+      M1: ["CAPE", "AHSCOUTM", "M1_FACE", "GOGGLES"]
+      M2: ["CAPE", "AHSCOUTM", "M2_FACE", "GOGGLES"]
+      M3: ["CAPE", "AHSCOUTM", "M3_FACE", "GOGGLES"]
+      M4: ["CAPE", "AHSCOUTM", "M4_FACE", "GOGGLES"]
+      M5: ["CAPE", "AHSCOUTM", "M5_FACE", "GOGGLES"]
+      F0: ["CAPE", "AHSCOUTF", "F0_FACE", "GOGGLES"]
+      F1: ["CAPE", "AHSCOUTF", "F1_FACE", "GOGGLES"]
+      F2: ["CAPE", "AHSCOUTF", "F2_FACE", "GOGGLES"]
+      F3: ["CAPE", "AHSCOUTF", "F3_FACE", "GOGGLES"]
+      F4: ["CAPE", "AHSCOUTF", "F4_FACE", "GOGGLES"]
+      F5: ["CAPE", "AHSCOUTF", "F5_FACE", "GOGGLES"]
+  - type: STR_SCOUTHB_UC #SCOUT HONOR BLACK
+    customArmorPreviewIndex: 164
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    layersDefaultPrefix: CAPE
+    layersSpecificPrefix:
+      1: SCOUTH
+      3: GOGGLES
+    layersDefinition:
+      M0: ["CAPEB", "AHSCOUTM", "M0_FACE", "GOGGLES"]
+      M1: ["CAPEB", "AHSCOUTM", "M1_FACE", "GOGGLES"]
+      M2: ["CAPEB", "AHSCOUTM", "M2_FACE", "GOGGLES"]
+      M3: ["CAPEB", "AHSCOUTM", "M3_FACE", "GOGGLES"]
+      M4: ["CAPEB", "AHSCOUTM", "M4_FACE", "GOGGLES"]
+      M5: ["CAPEB", "AHSCOUTM", "M5_FACE", "GOGGLES"]
+      F0: ["CAPEB", "AHSCOUTF", "F0_FACE", "GOGGLES"]
+      F1: ["CAPEB", "AHSCOUTF", "F1_FACE", "GOGGLES"]
+      F2: ["CAPEB", "AHSCOUTF", "F2_FACE", "GOGGLES"]
+      F3: ["CAPEB", "AHSCOUTF", "F3_FACE", "GOGGLES"]
+      F4: ["CAPEB", "AHSCOUTF", "F4_FACE", "GOGGLES"]
+      F5: ["CAPEB", "AHSCOUTF", "F5_FACE", "GOGGLES"]
+  - type: STR_SCOUTHW_UC #SCOUT HONOR WHITE
+    customArmorPreviewIndex: 164
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5  
+    layersDefaultPrefix: CAPE
+    layersSpecificPrefix:
+      1: SCOUTH
+      3: GOGGLES
+    layersDefinition:
+      M0: ["CAPEW", "AHSCOUTM", "M0_FACE", "GOGGLES"]
+      M1: ["CAPEW", "AHSCOUTM", "M1_FACE", "GOGGLES"]
+      M2: ["CAPEW", "AHSCOUTM", "M2_FACE", "GOGGLES"]
+      M3: ["CAPEW", "AHSCOUTM", "M3_FACE", "GOGGLES"]
+      M4: ["CAPEW", "AHSCOUTM", "M4_FACE", "GOGGLES"]
+      M5: ["CAPEW", "AHSCOUTM", "M5_FACE", "GOGGLES"]
+      F0: ["CAPEW", "AHSCOUTF", "F0_FACE", "GOGGLES"]
+      F1: ["CAPEW", "AHSCOUTF", "F1_FACE", "GOGGLES"]
+      F2: ["CAPEW", "AHSCOUTF", "F2_FACE", "GOGGLES"]
+      F3: ["CAPEW", "AHSCOUTF", "F3_FACE", "GOGGLES"]
+      F4: ["CAPEW", "AHSCOUTF", "F4_FACE", "GOGGLES"]
+      F5: ["CAPEW", "AHSCOUTF", "F5_FACE", "GOGGLES"]
+  - type: STR_PERSONAL_ARMOR_UC #TATICAl
+    customArmorPreviewIndex: 151
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 1
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5	
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: TATICAL
+    layersDefinition:
+      M0: ["0", "TATICALM", "M0_FACE"]
+      M1: ["0", "TATICALM", "M1_FACE"]
+      M2: ["0", "TATICALM", "M2_FACE"]
+      M3: ["0", "TATICALM", "M3_FACE"]
+      M4: ["0", "TATICALM", "M4_FACE"]
+      M5: ["0", "TATICALM", "M5_FACE"]
+      F0: ["0", "TATICALF", "F0_FACE"]
+      F1: ["0", "TATICALF", "F1_FACE"]
+      F2: ["0", "TATICALF", "F2_FACE"]
+      F3: ["0", "TATICALF", "F3_FACE"]
+      F4: ["0", "TATICALF", "F4_FACE"]
+      F5: ["0", "TATICALF", "F5_FACE"]
+  - type: STR_SIGNAL_ARMOR_UC #SIGNAL
+    customArmorPreviewIndex: 166
+    spriteFaceGroup: 0
+    spriteFaceColor: []
+    spriteHairGroup: 0
+    spriteHairColor: []
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: SIGNAL
+    layersDefinition:
+      M0: ["0", "SIGNALM", "M0_FACE"]
+      M1: ["0", "SIGNALM", "M1_FACE"]
+      M2: ["0", "SIGNALM", "M2_FACE"]
+      M3: ["0", "SIGNALM", "M3_FACE"]
+      M4: ["0", "SIGNALM", "M4_FACE"]
+      M5: ["0", "SIGNALM", "M5_FACE"]
+      F0: ["0", "SIGNALF", "F0_FACE"]
+      F1: ["0", "SIGNALF", "F1_FACE"]
+      F2: ["0", "SIGNALF", "F2_FACE"]
+      F3: ["0", "SIGNALF", "F3_FACE"]
+      F4: ["0", "SIGNALF", "F4_FACE"]
+      F5: ["0", "SIGNALF", "F5_FACE"]
+  - type: STR_HONOR_ARMOR_UC #HONOR
+    customArmorPreviewIndex: 161  
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: HONOR
+    layersDefinition:
+      M0: ["0", "HONORM", "M0_FACE"]
+      M1: ["0", "HONORM", "M1_FACE"]
+      M2: ["0", "HONORM", "M2_FACE"]
+      M3: ["0", "HONORM", "M3_FACE"]
+      M4: ["0", "HONORM", "M4_FACE"]
+      M5: ["0", "HONORM", "M5_FACE"]
+      F0: ["0", "HONORF", "F0_FACE"]
+      F1: ["0", "HONORF", "F1_FACE"]
+      F2: ["0", "HONORF", "F2_FACE"]
+      F3: ["0", "HONORF", "F3_FACE"]
+      F4: ["0", "HONORF", "F4_FACE"]
+      F5: ["0", "HONORF", "F5_FACE"]
+  - type: STR_ASS_ARMOR_HONOR_UC #HONOR ASSAULT
+    customArmorPreviewIndex: 165
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: HONORASS
+    layersDefinition:
+      M0: ["0", "ASSAULTMH", "M0_FACE"]
+      M1: ["0", "ASSAULTMH", "M1_FACE"]
+      M2: ["0", "ASSAULTMH", "M2_FACE"]
+      M3: ["0", "ASSAULTMH", "M3_FACE"]
+      M4: ["0", "ASSAULTMH", "M4_FACE"]
+      M5: ["0", "ASSAULTMH", "M5_FACE"]
+      F0: ["0", "ASSAULTFH", "F0_FACE"]
+      F1: ["0", "ASSAULTFH", "F1_FACE"]
+      F2: ["0", "ASSAULTFH", "F2_FACE"]
+      F3: ["0", "ASSAULTFH", "F3_FACE"]
+      F4: ["0", "ASSAULTFH", "F4_FACE"]
+      F5: ["0", "ASSAULTFH", "F5_FACE"]
+  - type: STR_ASS_ARMOR_UC #ASSAULT
+    customArmorPreviewIndex: 152
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: ASSAULT
+    layersDefinition:
+      M0: ["0", "ASSAULTM", "M0_FACE"]
+      M1: ["0", "ASSAULTM", "M1_FACE"]
+      M2: ["0", "ASSAULTM", "M2_FACE"]
+      M3: ["0", "ASSAULTM", "M3_FACE"]
+      M4: ["0", "ASSAULTM", "M4_FACE"]
+      M5: ["0", "ASSAULTM", "M5_FACE"]
+      F0: ["0", "ASSAULTF", "F0_FACE"]
+      F1: ["0", "ASSAULTF", "F1_FACE"]
+      F2: ["0", "ASSAULTF", "F2_FACE"]
+      F3: ["0", "ASSAULTF", "F3_FACE"]
+      F4: ["0", "ASSAULTF", "F4_FACE"]
+      F5: ["0", "ASSAULTF", "F5_FACE"]
+  - type: STR_DEV_ARMOR_UC #DEVASTATOR
+    customArmorPreviewIndex: 153
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: DEVASTATOR
+    layersDefinition:
+      M0: ["0", "DEVASTATORM", "M0_FACE"]
+      M1: ["0", "DEVASTATORM", "M1_FACE"]
+      M2: ["0", "DEVASTATORM", "M2_FACE"]
+      M3: ["0", "DEVASTATORM", "M3_FACE"]
+      M4: ["0", "DEVASTATORM", "M4_FACE"]
+      M5: ["0", "DEVASTATORM", "M5_FACE"]
+      F0: ["0", "DEVASTATORF", "F0_FACE"]
+      F1: ["0", "DEVASTATORF", "F1_FACE"]
+      F2: ["0", "DEVASTATORF", "F2_FACE"]
+      F3: ["0", "DEVASTATORF", "F3_FACE"]
+      F4: ["0", "DEVASTATORF", "F4_FACE"]
+      F5: ["0", "DEVASTATORF", "F5_FACE"]
+  - type: STR_CHAP_ARMOR_UC ##CHAPLAIN
+    customArmorPreviewIndex: 163 
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: CHAPLAIN
+    layersDefinition:
+      M0: ["0", "CHAPLAINM", "M0_FACE"]
+      M1: ["0", "CHAPLAINM", "M1_FACE"]
+      M2: ["0", "CHAPLAINM", "M2_FACE"]
+      M3: ["0", "CHAPLAINM", "M3_FACE"]
+      M4: ["0", "CHAPLAINM", "M4_FACE"]
+      M5: ["0", "CHAPLAINM", "M5_FACE"]
+      F0: ["0", "CHAPLAINF", "F0_FACE"]
+      F1: ["0", "CHAPLAINF", "F1_FACE"]
+      F2: ["0", "CHAPLAINF", "F2_FACE"]
+      F3: ["0", "CHAPLAINF", "F3_FACE"]
+      F4: ["0", "CHAPLAINF", "F4_FACE"]
+      F5: ["0", "CHAPLAINF", "F5_FACE"]
+  - type: STR_LIB_ARMOR_UC #LIBRA
+    customArmorPreviewIndex: 162
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: LIB
+    layersDefinition:
+      M0: ["0", "LIBM", "M0_FACE"]
+      M1: ["0", "LIBM", "M1_FACE"]
+      M2: ["0", "LIBM", "M2_FACE"]
+      M3: ["0", "LIBM", "M3_FACE"]
+      M4: ["0", "LIBM", "M4_FACE"]
+      M5: ["0", "LIBM", "M5_FACE"]
+      F0: ["0", "LIBF", "F0_FACE"]
+      F1: ["0", "LIBF", "F1_FACE"]
+      F2: ["0", "LIBF", "F2_FACE"]
+      F3: ["0", "LIBF", "F3_FACE"]
+      F4: ["0", "LIBF", "F4_FACE"]
+      F5: ["0", "LIBF", "F5_FACE"]
+  - type: STR_TECH_ARMOR_UC #TECH
+    customArmorPreviewIndex: 155
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: TECH
+    layersDefinition:
+      M0: ["0", "TECHM", "M0_FACE"]
+      M1: ["0", "TECHM", "M1_FACE"]
+      M2: ["0", "TECHM", "M2_FACE"]
+      M3: ["0", "TECHM", "M3_FACE"]
+      M4: ["0", "TECHM", "M4_FACE"]
+      M5: ["0", "TECHM", "M5_FACE"]
+      F0: ["0", "TECHF", "F0_FACE"]
+      F1: ["0", "TECHF", "F1_FACE"]
+      F2: ["0", "TECHF", "F2_FACE"]
+      F3: ["0", "TECHF", "F3_FACE"]
+      F4: ["0", "TECHF", "F4_FACE"]
+      F5: ["0", "TECHF", "F5_FACE"]
+  - type: STR_APOT_ARMOR_UC #APOTH
+    customArmorPreviewIndex: 156
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: APOT
+    layersDefinition:
+      M0: ["0", "APOTM", "M0_FACE"]
+      M1: ["0", "APOTM", "M1_FACE"]
+      M2: ["0", "APOTM", "M2_FACE"]
+      M3: ["0", "APOTM", "M3_FACE"]
+      M4: ["0", "APOTM", "M4_FACE"]
+      M5: ["0", "APOTM", "M5_FACE"]
+      F0: ["0", "APOTF", "F0_FACE"]
+      F1: ["0", "APOTF", "F1_FACE"]
+      F2: ["0", "APOTF", "F2_FACE"]
+      F3: ["0", "APOTF", "F3_FACE"]
+      F4: ["0", "APOTF", "F4_FACE"]
+      F5: ["0", "APOTF", "F5_FACE"]
+  - type: STR_CAPTAIN_UC #CAPTAIN
+    customArmorPreviewIndex: 160
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: CAPTAIN
+    layersDefinition:
+      M0: ["0", "CAPTAINM", "M0_FACE"]
+      M1: ["0", "CAPTAINM", "M1_FACE"]
+      M2: ["0", "CAPTAINM", "M2_FACE"]
+      M3: ["0", "CAPTAINM", "M3_FACE"]
+      M4: ["0", "CAPTAINM", "M4_FACE"]
+      M5: ["0", "CAPTAINM", "M5_FACE"]
+      F0: ["0", "CAPTAINF", "F0_FACE"]
+      F1: ["0", "CAPTAINF", "F1_FACE"]
+      F2: ["0", "CAPTAINF", "F2_FACE"]
+      F3: ["0", "CAPTAINF", "F3_FACE"]
+      F4: ["0", "CAPTAINF", "F4_FACE"]
+      F5: ["0", "CAPTAINF", "F5_FACE"]
+  - type: STR_SARGENT_ARMOR_UC #SARGENT
+    customArmorPreviewIndex: 154
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: SARGENT
+    layersDefinition:
+      M0: ["0", "SARGENTM", "M0_FACE"]
+      M1: ["0", "SARGENTM", "M1_FACE"]
+      M2: ["0", "SARGENTM", "M2_FACE"]
+      M3: ["0", "SARGENTM", "M3_FACE"]
+      M4: ["0", "SARGENTM", "M4_FACE"]
+      M5: ["0", "SARGENTM", "M5_FACE"]
+      F0: ["0", "SARGENTF", "F0_FACE"]
+      F1: ["0", "SARGENTF", "F1_FACE"]
+      F2: ["0", "SARGENTF", "F2_FACE"]
+      F3: ["0", "SARGENTF", "F3_FACE"]
+      F4: ["0", "SARGENTF", "F4_FACE"]
+      F5: ["0", "SARGENTF", "F5_FACE"]
+  - type: STR_POWER_SUIT_UC #TERMINATOR
+    customArmorPreviewIndex: 157
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: TERMINATOR
+    layersDefinition:
+      M0: ["0", "TERMINATORMF", "M0_FACE"]
+      M1: ["0", "TERMINATORMF", "M1_FACE"]
+      M2: ["0", "TERMINATORMF", "M2_FACE"]
+      M3: ["0", "TERMINATORMF", "M3_FACE"]
+      M4: ["0", "TERMINATORMF", "M4_FACE"]
+      M5: ["0", "TERMINATORMF", "M5_FACE"]
+      F0: ["0", "TERMINATORMF", "F0_FACE"]
+      F1: ["0", "TERMINATORMF", "F1_FACE"]
+      F2: ["0", "TERMINATORMF", "F2_FACE"]
+      F3: ["0", "TERMINATORMF", "F3_FACE"]
+      F4: ["0", "TERMINATORMF", "F4_FACE"]
+      F5: ["0", "TERMINATORMF", "F5_FACE"]
+  - type: STR_FLYING_SUIT_UC  #TERMINATOR ASS
+    customArmorPreviewIndex: 158
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: TERMINATOR
+    layersDefinition:
+      M0: ["0", "TERMINATORMF", "M0_FACE"]
+      M1: ["0", "TERMINATORMF", "M1_FACE"]
+      M2: ["0", "TERMINATORMF", "M2_FACE"]
+      M3: ["0", "TERMINATORMF", "M3_FACE"]
+      M4: ["0", "TERMINATORMF", "M4_FACE"]
+      M5: ["0", "TERMINATORMF", "M5_FACE"]
+      F0: ["0", "TERMINATORMF", "F0_FACE"]
+      F1: ["0", "TERMINATORMF", "F1_FACE"]
+      F2: ["0", "TERMINATORMF", "F2_FACE"]
+      F3: ["0", "TERMINATORMF", "F3_FACE"]
+      F4: ["0", "TERMINATORMF", "F4_FACE"]
+      F5: ["0", "TERMINATORMF", "F5_FACE"]
+  - type: STR_TSARGENT_UC  #TSARGENT
+    customArmorPreviewIndex: 159
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: TSARGENT
+    layersDefinition:
+      M0: ["0", "TERMINATORSMF", "M0_FACE"]
+      M1: ["0", "TERMINATORSMF", "M1_FACE"]
+      M2: ["0", "TERMINATORSMF", "M2_FACE"]
+      M3: ["0", "TERMINATORSMF", "M3_FACE"]
+      M4: ["0", "TERMINATORSMF", "M4_FACE"]
+      M5: ["0", "TERMINATORSMF", "M5_FACE"]
+      F0: ["0", "TERMINATORSMF", "F0_FACE"]
+      F1: ["0", "TERMINATORSMF", "F1_FACE"]
+      F2: ["0", "TERMINATORSMF", "F2_FACE"]
+      F3: ["0", "TERMINATORSMF", "F3_FACE"]
+      F4: ["0", "TERMINATORSMF", "F4_FACE"]
+      F5: ["0", "TERMINATORSMF", "F5_FACE"]
+#DREAD
+  - type: DREAD_ARMOR_UC           #DREAD ARMOR NORMAL
+    customArmorPreviewIndex: [181, 182, 183]
+  - type: DREAD_ARMOR2_UC          #DREAD ARMOR PLASMA
+    customArmorPreviewIndex: [170, 171, 172]
+  - type: DREAD_ARMOR3_UC          #DREAD ARMOR Launcher
+    customArmorPreviewIndex: [184, 185, 186]
+  - type: DREAD_ARMOR4_UC          #DREAD ARMOR LAS
+    customArmorPreviewIndex: [170, 171, 172]
+  - type: DREAD_ARMOR5_UC          #DREAD ARMOR VENERABLE
+    customArmorPreviewIndex: [176, 177, 178]
+#JOAN
+  - type: STR_JARMOR_UC
+    customArmorPreviewIndex: 180
+  - type: STR_JARMORH_UC
+    customArmorPreviewIndex: 180
+# DONT USE FOR CHAPTER REPLACE
+soldiers:
+  - type: STR_FALLEN
+    rankSprite: 74
+    rankBattleSprite: 188
+    rankTinySprite: 133
+  - type: STR_SOLDIER_JOAN
+    rankSprite: 74
+    rankBattleSprite: 188
+    rankTinySprite: 133	
+  - type: STR_SOLDIER
+    rankSprite: 74
+    rankBattleSprite: 188
+    rankTinySprite: 133
+extraSprites:
+  - type: CustomArmorPreviews
+    width: 360
+    height: 160
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/unit_preview.png
+  - type: SMOKE.PCK # normal HIT ANIMATION
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      188: Resources/Rank/smoke188.png
+      189: Resources/Rank/smoke189.png
+      190: Resources/Rank/smoke190.png
+      191: Resources/Rank/smoke191.png
+      192: Resources/Rank/smoke192.png
+      193: Resources/Rank/smoke193.png
+  - type: TinyRanks
+    width: 42
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      133: Resources/UnitUI/Ranks_Small5.png
+#
+  - typeSingle: BIKE__1__BIKEM
+    fileSingle: Resources/LAYER/BLOODA/BIKEM.png
+  - typeSingle: BIKE__1__BIKEF
+    fileSingle: Resources/LAYER/BLOODA/BIKEF.png
+  - typeSingle: SCOUT__1__ASCOUTM
+    fileSingle: Resources/LAYER/BLOODA/ASCOUTM.png
+  - typeSingle: SCOUT__1__ASCOUTMB
+    fileSingle: Resources/LAYER/BLOODA/ASCOUTMB.png
+  - typeSingle: SCOUT__1__ASCOUTMC
+    fileSingle: Resources/LAYER/BLOODA/ASCOUTMC.png
+  - typeSingle: SCOUT__1__ASCOUTF
+    fileSingle: Resources/LAYER/BLOODA/ASCOUTF.png
+  - typeSingle: SCOUT__1__ASCOUTFB
+    fileSingle: Resources/LAYER/BLOODA/ASCOUTFB.png
+  - typeSingle: SCOUT__1__ASCOUTFC
+    fileSingle: Resources/LAYER/BLOODA/ASCOUTFC.png
+  - typeSingle: SCOUTH__1__AHSCOUTM
+    fileSingle: Resources/LAYER/BLOODA/AHSCOUTM.png
+  - typeSingle: SCOUTH__1__AHSCOUTF
+    fileSingle: Resources/LAYER/BLOODA/AHSCOUTF.png
+  - typeSingle: TATICAL__1__TATICALM
+    fileSingle: Resources/LAYER/BLOODA/TATICALM.png
+  - typeSingle: TATICAL__1__TATICALF
+    fileSingle: Resources/LAYER/BLOODA/TATICALF.png
+  - typeSingle: SIGNAL__1__SIGNALM
+    fileSingle: Resources/LAYER/BLOODA/SIGNALM.png
+  - typeSingle: SIGNAL__1__SIGNALF
+    fileSingle: Resources/LAYER/BLOODA/SIGNALF.png
+  - typeSingle: ASSAULT__1__ASSAULTM
+    fileSingle: Resources/LAYER/BLOODA/ASSAULTM.png
+  - typeSingle: ASSAULT__1__ASSAULTF
+    fileSingle: Resources/LAYER/BLOODA/ASSAULTF.png
+  - typeSingle: HONOR__1__HONORM
+    fileSingle: Resources/LAYER/BLOODA/HONORM.png
+  - typeSingle: HONOR__1__HONORF
+    fileSingle: Resources/LAYER/BLOODA/HONORF.png
+  - typeSingle: HONORASS__1__ASSAULTMH
+    fileSingle: Resources/LAYER/BLOODA/ASSAULTMH.png
+  - typeSingle: HONORASS__1__ASSAULTFH
+    fileSingle: Resources/LAYER/BLOODA/ASSAULTFH.png
+  - typeSingle: CHAPLAIN__1__CHAPLAINM
+    fileSingle: Resources/LAYER/BLOODA/CHAPLAINM.png
+  - typeSingle: CHAPLAIN__1__CHAPLAINF
+    fileSingle: Resources/LAYER/BLOODA/CHAPLAINF.png
+  - typeSingle: DEVASTATOR__1__DEVASTATORM
+    fileSingle: Resources/LAYER/BLOODA/DEVASTATORM.png
+  - typeSingle: DEVASTATOR__1__DEVASTATORF
+    fileSingle: Resources/LAYER/BLOODA/DEVASTATORF.png
+  - typeSingle: TECH__1__TECHM
+    fileSingle: Resources/LAYER/BLOODA/TECHM.png
+  - typeSingle: TECH__1__TECHF
+    fileSingle: Resources/LAYER/BLOODA/TECHF.png
+  - typeSingle: CAPTAIN__1__CAPTAINM
+    fileSingle: Resources/LAYER/BLOODA/CAPTAINM.png
+  - typeSingle: CAPTAIN__1__CAPTAINF
+    fileSingle: Resources/LAYER/BLOODA/CAPTAINF.png
+  - typeSingle: SARGENT__1__SARGENTM
+    fileSingle: Resources/LAYER/BLOODA/SARGENTM.png
+  - typeSingle: SARGENT__1__SARGENTF
+    fileSingle: Resources/LAYER/BLOODA/SARGENTF.png
+  - typeSingle: LIB__1__LIBM
+    fileSingle: Resources/LAYER/BLOODA/LIBM.png
+  - typeSingle: LIB__1__LIBF
+    fileSingle: Resources/LAYER/BLOODA/LIBF.png
+  - typeSingle: APOT__1__APOTM
+    fileSingle: Resources/LAYER/BLOODA/APOTM.png
+  - typeSingle: APOT__1__APOTF
+    fileSingle: Resources/LAYER/BLOODA/APOTF.png
+  - typeSingle: TERMINATOR__1__TERMINATORMF
+    fileSingle: Resources/LAYER/BLOODA/TERMINATORMF.png
+  - typeSingle: TSARGENT__1__TERMINATORSMF
+    fileSingle: Resources/LAYER/BLOODA/TERMINATORSMF.png
+  - typeSingle: CENT__1__CENTMF
+    fileSingle: Resources/LAYER/BLOODA/CENTMF.png
+#
+#
+#
+  - typeSingle: 0__0__0
+    fileSingle: Resources/LAYER/0.gif
+  - typeSingle: 1__0__0
+    fileSingle: Resources/LAYER/0.gif
+  - typeSingle: CAPE__0__CAPE
+    fileSingle: Resources/LAYER/CAPE.gif
+  - typeSingle: CAPE__0__CAPEB
+    fileSingle: Resources/LAYER/CAPEB.gif
+  - typeSingle: CAPE__0__CAPEG
+    fileSingle: Resources/LAYER/CAPEG.gif
+  - typeSingle: CAPE__0__CAPER
+    fileSingle: Resources/LAYER/CAPER.gif
+  - typeSingle: CAPE__0__CAPEW
+    fileSingle: Resources/LAYER/CAPEW.gif
+  - typeSingle: CAPE__0__CAPEY
+    fileSingle: Resources/LAYER/CAPEY.gif
+#
+#
+  - typeSingle: CAPE__2__M0_FACE
+    fileSingle: Resources/LAYER/2facem0.gif
+  - typeSingle: CAPE__2__M1_FACE
+    fileSingle: Resources/LAYER/2facem1.gif
+  - typeSingle: CAPE__2__M2_FACE
+    fileSingle: Resources/LAYER/2facem2.gif
+  - typeSingle: CAPE__2__M3_FACE
+    fileSingle: Resources/LAYER/2facem3.gif
+  - typeSingle: CAPE__2__M4_FACE
+    fileSingle: Resources/LAYER/2facem4.gif
+  - typeSingle: CAPE__2__M5_FACE
+    fileSingle: Resources/LAYER/2facem5.gif
+  - typeSingle: CAPE__2__F0_FACE
+    fileSingle: Resources/LAYER/2facef0.gif
+  - typeSingle: CAPE__2__F1_FACE
+    fileSingle: Resources/LAYER/2facef1.gif
+  - typeSingle: CAPE__2__F2_FACE
+    fileSingle: Resources/LAYER/2facef2.gif
+  - typeSingle: CAPE__2__F3_FACE
+    fileSingle: Resources/LAYER/2facef3.gif
+  - typeSingle: CAPE__2__F4_FACE
+    fileSingle: Resources/LAYER/2facef4.gif
+  - typeSingle: CAPE__2__F5_FACE
+    fileSingle: Resources/LAYER/2facef5.gif
+#
+#
+  - typeSingle: 0__2__M0_FACE
+    fileSingle: Resources/LAYER/2facem0.gif
+  - typeSingle: 0__2__M1_FACE
+    fileSingle: Resources/LAYER/2facem1.gif
+  - typeSingle: 0__2__M2_FACE
+    fileSingle: Resources/LAYER/2facem2.gif
+  - typeSingle: 0__2__M3_FACE
+    fileSingle: Resources/LAYER/2facem3.gif
+  - typeSingle: 0__2__M4_FACE
+    fileSingle: Resources/LAYER/2facem4.gif
+  - typeSingle: 0__2__M5_FACE
+    fileSingle: Resources/LAYER/2facem5.gif
+  - typeSingle: 0__2__F0_FACE
+    fileSingle: Resources/LAYER/2facef0.gif
+  - typeSingle: 0__2__F1_FACE
+    fileSingle: Resources/LAYER/2facef1.gif
+  - typeSingle: 0__2__F2_FACE
+    fileSingle: Resources/LAYER/2facef2.gif
+  - typeSingle: 0__2__F3_FACE
+    fileSingle: Resources/LAYER/2facef3.gif
+  - typeSingle: 0__2__F4_FACE
+    fileSingle: Resources/LAYER/2facef4.gif
+  - typeSingle: 0__2__F5_FACE
+    fileSingle: Resources/LAYER/2facef5.gif
+#
+  - typeSingle: 1__2__M0_FACE
+    fileSingle: Resources/LAYER/CM0.gif
+  - typeSingle: 1__2__M1_FACE
+    fileSingle: Resources/LAYER/CM1.gif
+  - typeSingle: 1__2__M2_FACE
+    fileSingle: Resources/LAYER/CM2.gif
+  - typeSingle: 1__2__M3_FACE
+    fileSingle: Resources/LAYER/CM3.gif
+  - typeSingle: 1__2__M4_FACE
+    fileSingle: Resources/LAYER/CM4.gif
+  - typeSingle: 1__2__M5_FACE
+    fileSingle: Resources/LAYER/CM5.gif
+  - typeSingle: 1__2__F0_FACE
+    fileSingle: Resources/LAYER/CF0.gif
+  - typeSingle: 1__2__F1_FACE
+    fileSingle: Resources/LAYER/CF1.gif
+  - typeSingle: 1__2__F2_FACE
+    fileSingle: Resources/LAYER/CF2.gif
+  - typeSingle: 1__2__F3_FACE
+    fileSingle: Resources/LAYER/CF3.gif
+  - typeSingle: 1__2__F4_FACE
+    fileSingle: Resources/LAYER/CF4.gif
+  - typeSingle: 1__2__F5_FACE
+    fileSingle: Resources/LAYER/CF5.gif
+#
+#
+#INVENTORY`S
+  - typeSingle: GOGGLES__3__GOGGLES
+    fileSingle: Resources/LAYER/BLOODA/goggles.png
+  - typeSingle: CAPE__3__GOGGLES
+    fileSingle: Resources/LAYER/BLOODA/goggles.png	
+
+  - type: JINV.SPK #NPCJ INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/JINV2.png
+  - type: JINV5.SPK #NPCJ INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/JINV5.png
+  - type: DREADINV.SPK #DREAD INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/DREADI.png
+  - type: DREADINV2.SPK #DREAD INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/DREADI2.png
+  - type: DREADINV3.SPK #DREAD INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/DREADI3.png
+  - type: DREADINV4.SPK #DREAD INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/DREADI4.png
+  - type: DREADINV5.SPK #DREAD INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/DREADI5.png
+  - type: CIV3.SPK #CIV1 INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/CIV3.png
+  - type: CENTINV.SPK #CIV1 INV CENTURION
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/CENT.png
+  - type: TARANTULA1.SPK #CIV1 INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/TAR.png
+  - type: TARANTULA2.SPK #CIV1 INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/TAR2.png
+  - type: WWI.SPK #CIV1 INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/WW.png
+  - type: VIN.SPK #CIV1 INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/VIN.png
+  - type: D.SPK #CIV1 INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/D.png
+  - type: RAZOR.SPK #CIV1 INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/RAZOR.png
+  - type: STORMTALONI.SPK #STORMTALON INV
+    singleImage: true
+    files:
+      0: Resources/LAYER/BLOODA/STORMTALON.png
+#
+#
+#DRAWING ROUTINES
+  - type: XCOM_HS.PCK  #SCOUT ARMOR CAPE          BROWN
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Scout/BLOODA/SCOUTH.png
+  - type: XCOM_HSG.PCK #SCOUT ARMOR CAPE          GREEN
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Scout/BLOODA/SCOUTHG.png
+  - type: XCOM_HSR.PCK #SCOUT ARMOR CAPE          RED
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Scout/BLOODA/SCOUTHR.png
+  - type: XCOM_HSB.PCK #SCOUT ARMOR CAPE          URBAN
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Scout/BLOODA/SCOUTHB.png
+  - type: XCOM_HSW.PCK #SCOUT ARMOR CAPE          WHITE
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Scout/BLOODA/SCOUTHW.png
+  - type: XCOM_HSY.PCK #SCOUT ARMOR CAPE          YELOW
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Scout/BLOODA/SCOUTHY.png
+  - type: XCOM_0.PCK #SCOUT ARMOR xcom0
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Scout/BLOODA/SCOUT.png
+  - type: XCOM_1.PCK #MK7 ARMOR xcom1
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/MK7-ARMOR/BLOODA/MK7-ARMOR.png
+  - type: XCOM_1_CIV.PCK #MK7 ARMOR CIVILIAN
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/MK7-ARMOR/BLOODA/MK7-ARMOR2.png
+  - type: XCOM_2.PCK #TERMINATOR ARMOR xcom2
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Terminator/BLOODA/TERMINATOR-ARMOR.png
+  - type: XCOM_20.PCK #TERMINATOR CAPTAIN ARMOR xcom20    
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/CAPTAIN/BLOODA/TERMINATOR-CAPTAIN.png
+  - type: XCOM_21.PCK #Sargent ARMOR xcom21
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sargent/BLOODA/MK7-SARGENT.png
+  - type: XCOM_22.PCK #APOT ARMOR xcom22
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/APOT/BLOODA/APOT-ARMOR.png
+  - type: XCOM_23.PCK #DEV ARMOR xcom23
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Devastator/BLOODA/DEV-ARMOR.png
+  - type: XCOM_24.PCK #LIB ARMOR xcom24
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/LIB/BLOODA/LIB-ARMOR.png
+  - type: XCOM_25.PCK #ASS ARMOR xcom25
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Assault/BLOODA/ASS-ARMOR.png
+  - type: XCOM_26.PCK #Terminator ASS
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Terminator/BLOODA/TERMINATORASS.png 
+  - type: XCOM_27.PCK #CHAPLAIN ARMOR xcom27
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/CHAP/BLOODA/CHAP-ARMOR.png
+  - type: XCOM_28.PCK #HONOR ARMOR
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Honor/BLOODA/HONORARMOR.png
+  - type: XCOM_HASS.PCK #HONOR ARMOR ASSAULT
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Honor/BLOODA/HONORARMORASS.png
+  - type: XCOM_29.PCK #Terminator Sargent ARMOR xcom29
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Terminator/BLOODA/TERMINATORSARGENT.png
+  - type: XCOM_30.PCK #TECHMARINE ARMOR xcom30
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tech/BLOODA/TECH.png
+  - type: SIGNALDR.PCK #TECHMARINE ARMOR xcom30
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/MK7-ARMOR/BLOODA/MASTER.png
+  - type: JOAN.PCK #NPC J
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/JOAN/BLOODA/MK7-JOAN.png
+##LARGE TANK DR
+  - type: STORMRAVEN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Stormraven/BLOODA/Stormraven.png
+  - type: BIKE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/bike/BLOODA/BIKE.png
+  - type: CENT.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/Cent/BLOODA/CENT.png
+  - type: TARANTULA.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/Tarantula/BLOODA/Tarantula.png
+  - type: TARANTULARADAR.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/Tarantula/BLOODA/Tarantularadar.png
+  - type: TARANTULABOLTER.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Tarantula/BLOODA/Tarantulabolter.png
+  - type: WW.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Tarantula/BLOODA/WW.png
+  - type: RB.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Tarantula/BLOODA/RB.png
+  - type: RD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Tarantula/BLOODA/RD.png
+  - type: DREAD.PCK    #FISTS
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/dread/BLOODA/dread.png	  
+  - type: DREAD2.PCK    #MISSELE
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/dread/BLOODA/dread2.png
+  - type: DREAD3.PCK    #LASGUN
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/dread/BLOODA/dread3.png
+  - type: DREAD4.PCK    #PLASMA
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/dread/BLOODA/dread4.png
+  - type: DREAD5.PCK    #VETERAN
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/dread/BLOODA/dread5.png
+  - type: LTT.PCK #Left thunderhawnk turret
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Thunderhawk/BLOODA/LTT.png
+  - type: RTT.PCK #RIGHT thunderhawnk turret
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Thunderhawk/BLOODA/RTT.png
+  - type: STORMTALON.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/Stormtalon/BLOODA/STDR12.png
+  - type: STORMTALON2.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/Stormtalon/BLOODA/ST2DR12.png
+  - type: LTS.PCK #Left Stormtalon turret
+    width: 384
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Stormtalon/BLOODA/LTS.png
+  - type: RTS.PCK #RIGHT Stormtalon turret
+    width: 384
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Stormtalon/BLOODA/RTS.png	  
+  - type: VINDICATOR.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/Support/BLOODA/VINDI2.png
+  - type: VINDICATOR2.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/Support/BLOODA/VINDI3.png
+#CRAFTS
+  - type: BASEBITS.PCK            #BASEBIT BASEBIT BASEBIT BASEBIT BASEBIT
+    files:
+      55: Resources/Thunderhawk/BLOODA/Thunderhawk_base.png
+      56: Resources/Droppod/BLOODA/Droppod_base.png
+      57: Resources/Rhino/BLOODA/Rhino_base.png
+      58: Resources/Stormeagle/BLOODA/Stormeagle_base.png
+      59: Resources/Stormtalon/BLOODA/Stormtalon_base.png
+      60: Resources/Stormraven/BLOODA/Stormraven_base.png
+      61: Resources/Droppod/BLOODA/Droppod_base2.png
+      63: Resources/LANDSPEEDER/BLOODA/Speed_base.png
+      64: Resources/Stormhawk/BLOODA/Stormhawk_base.png
+      65: Resources/Army/BLOODA/army_base.png
+      74: Resources/Rank/basebits74.png
+      75: Resources/Rank/basebits75.png
+      76: Resources/Rank/basebits76.png
+      77: Resources/Rank/basebits77.png
+      78: Resources/Rank/basebits78.png
+      79: Resources/Rank/basebits79.gif
+      133: Resources/Stormhawk/BLOODA/Stormhawk2_base.png
+      308: Resources/Basebits/basebits308.png   #Facility
+      533: Resources/Rhino/BLOODA/Rhino_ass.png
+      534: Resources/Rhino/BLOODA/Rhino_dev.png
+      535: Resources/Rhino/BLOODA/Rhino_sct.png
+#BIG OBJS
+  - type: INTICON.PCK
+    files:
+      22: Resources/Thunderhawk/Thunderhawk_minimised.gif
+      23: Resources/Droppod/Droppod_minimised.gif
+      24: Resources/Rhino/Rhino_minimised.gif
+      25: Resources/Stormeagle/Stormeagle_minimised.gif
+      26: Resources/Stormtalon/Stormtalon_minimised.gif
+      27: Resources/Stormraven/Stormraven_minimised.gif
+      28: Resources/Droppod/Droppod_minimised.gif
+      29: Resources/Droppod/Droppod_minimised.gif
+      30: Resources/LANDSPEEDER/Speed_minimised.gif
+      31: Resources/Stormhawk/Stormhawk_minimised.gif
+      32: Resources/Army/army_minimised.gif
+      33: Resources/Thunderhawk/Thunderhawk_dogfight.gif
+      34: Resources/Droppod/Droppod_dogfight.gif
+      35: Resources/Rhino/Rhino_dogfight.gif
+      36: Resources/Stormeagle/Stormeagle_dogfight.gif
+      37: Resources/Stormtalon/Stormtalon_dogfight.gif
+      38: Resources/Stormraven/Stormraven_dogfight.gif
+      39: Resources/Droppod/Droppod_dogfight.gif
+      40: Resources/Droppod/Droppod_dogfight.gif
+      41: Resources/LANDSPEEDER/Speed_dogfight.gif
+      42: Resources/Stormhawk/Stormhawk_dogfight.gif
+      43: Resources/Army/army_dogfight.gif
+      100: Resources/Stormhawk/Stormhawk_minimised.gif
+      111: Resources/Stormhawk/Stormhawk_dogfight.gif
+  - type: BIGOBS.PCK
+    files:
+      197: Resources/dread/BLOODA/WDREAD6.png
+      198: Resources/dread/BLOODA/WDREAD7.png
+      199: Resources/Thunderhawk/BLOODA/199.png
+      200: Resources/bike/BLOODA/200.png
+      201: Resources/dread/BLOODA/WDREAD1.png
+      202: Resources/dread/BLOODA/WDREAD4.png
+      203: Resources/dread/BLOODA/WDREAD3.png
+      204: Resources/Tarantula/BLOODA/204.png
+      205: Resources/Tarantula/BLOODA/205.png
+      207: Resources/Terminator/BLOODA/207.png
+      208: Resources/Scout/BLOODA/208.png
+      209: Resources/MK7-ARMOR/BLOODA/Bigdead.png
+      210: Resources/CAPTAIN/BLOODA/captain.png
+      211: Resources/Sargent/BLOODA/sargent.png
+      212: Resources/APOT/BLOODA/apot.png
+      223: Resources/Banner/BLOODA/223.png
+      231: Resources/LIB/BLOODA/231.png
+      234: Resources/dread/BLOODA/WDREAD2.png
+      254: Resources/CHAP/BLOODA/254.png
+      255: Resources/Honor/BLOODA/255.png
+      260: Resources/Terminator/BLOODA/STerminator.png
+      261: Resources/Terminator/BLOODA/261.png
+      269: Resources/Tech/BLOODA/269.png
+      306: Resources/JOAN/BLOODA/306.png
+      329: Resources/Cent/BLOODA/329.png
+      334: Resources/Tarantula/BLOODA/334.png
+      451: Resources/Stormtalon/BLOODA/451.png
+      456: Resources/Scout/BLOODA/456.png
+      457: Resources/Stormraven/BLOODA/457.png
+  - type: FLOOROB.PCK
+    files:
+      82: Resources/bike/BLOODA/floorob_82.png
+      83: Resources/bike/BLOODA/floorob_83.png
+      84: Resources/bike/BLOODA/floorob_84.png
+      85: Resources/bike/BLOODA/floorob_85.png	
+      86: Resources/dread/BLOODA/floorob_86.png
+      87: Resources/dread/BLOODA/floorob_87.png
+      88: Resources/dread/BLOODA/floorob_88.png
+      89: Resources/dread/BLOODA/floorob_89.png
+      90: Resources/Tarantula/BLOODA/floorob_90.png
+      91: Resources/Tarantula/BLOODA/floorob_91.png
+      92: Resources/Tarantula/BLOODA/floorob_92.png
+      93: Resources/Tarantula/BLOODA/floorob_93.png	  
+      95: Resources/Terminator/BLOODA/floorob_95.png
+      96: Resources/Scout/BLOODA/floorob_96.png
+      97: Resources/MK7-ARMOR/BLOODA/floorob_97.png
+      98: Resources/CAPTAIN/BLOODA/floorob_98.png
+      99: Resources/Sargent/BLOODA/floorob_99.png
+      100: Resources/APOT/BLOODA/floorob_100.png
+      109: Resources/Banner/BLOODA/floorob_109.png
+      117: Resources/LIB/BLOODA/floorob_117.png
+      136: Resources/Honor/BLOODA/floorob_136.png
+      145: Resources/Terminator/BLOODA/floorob_145.png
+      151: Resources/tech/BLOODA/floorob_151.png
+      171: Resources/JOAN/BLOODA/floorob_171.png
+      191: Resources/Cent/BLOODA/floorob_191.png
+      192: Resources/Cent/BLOODA/floorob_192.png
+      193: Resources/Cent/BLOODA/floorob_193.png
+      194: Resources/Cent/BLOODA/floorob_194.png
+      270: Resources/Thunderhawk/BLOODA/floorob_270.png
+      271: Resources/Thunderhawk/BLOODA/floorob_271.png
+      272: Resources/Stormtalon/BLOODA/floorob_272.png
+      273: Resources/Stormtalon/BLOODA/floorob_273.png
+      274: Resources/Stormtalon/BLOODA/floorob_274.png
+      275: Resources/Stormtalon/BLOODA/floorob_275.png
+      276: Resources/Stormtalon/BLOODA/floorob_276.png
+      277: Resources/Stormtalon/BLOODA/floorob_277.png
+      278: Resources/Stormtalon/BLOODA/floorob_278.png
+      279: Resources/Stormtalon/BLOODA/floorob_279.png
+      280: Resources/Stormtalon/BLOODA/floorob_280.png
+      281: Resources/Stormtalon/BLOODA/floorob_281.png
+      299: Resources/Scout/BLOODA/floorob_299.png
+      350: Resources/Stormraven/BLOODA/floorob_350.png
+      351: Resources/Stormraven/BLOODA/floorob_351.png
+      352: Resources/Stormraven/BLOODA/floorob_352.png
+      353: Resources/Stormraven/BLOODA/floorob_353.png
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+        240: Resources/Banner/BLOODA/240.png
+##################################################################DON`T ALTER##################################################################
+##################################################################################################################################################		
+items:
+  - type: STR_STORMTALON_WEAPON
+    bigSprite: 451
+  - type: STR_T_SEC
+    bigSprite: 204
+  - type: STR_T_SEC2
+    bigSprite: 205
+  - type: AUX_TANK_CANNON
+    bigSprite: 200
+  - type: AUX_BOLTER
+    bigSprite: 334
+  - type: AUX_DOUBLE_BOLTER
+    bigSprite: 334
+  - type: STR_CLAWS
+    weight: 10
+    bigSprite: 261
+  - type: STR_TANK_ROCKET_LAUNCHER #Tarantula Sentry Weapon    2300
+    customItemPreviewIndex: 19
+  - type: STR_JOAN #HWP                                        2900
+    customItemPreviewIndex: 20
+  - type: STR_SERVITOR #UNIT                                    2100
+    customItemPreviewIndex: 17
+  - type: STR_TANK_LASER_CANNON #HWP                            2500	
+    customItemPreviewIndex: 15
+  - type: STR_BANNER #             3005
+    bigSprite: 223
+    floorSprite: 109
+    handSprite: 240
+  - type: STR_DREAD_MELEE_WEAPON
+    bigSprite: 201
+  - type: STR_HOVERTANK_PLASMA #dread plasma                   2700
+    bigSprite: 202
+  - type: STR_HOVERTANK_LASER #dread las                       501
+    bigSprite: 234
+  - type: STR_HOVERTANK_LAUNCHER #dread rocket                 502
+    bigSprite: 203
+  - type: STR_CENTURION   #dread rocket                 2850
+    bigSprite: 329
+  - type: AUX_CENT_ROCKET #dread rocket                 2860
+    bigSprite: 329
+  - type: AUX_DREAD_ASSC   #dread ASSAULT CAN
+    bigSprite: 197
+  - type: AUX_DREAD_FLAMER   #dread Flamer Palm
+    bigSprite: 198
+  - type: AUX_HOVERTANK_PLASMA   #dread plasma                   2710
+    bigSprite: 202
+  - type: AUX_HOVERTANK_LASER    #dread las                       2610
+    bigSprite: 234
+  - type: AUX_HOVERTANK_LAUNCHER #dread rocket                 2820
+    bigSprite: 203
+#--------------------------------------------------------------- Corpse	--------------------------------
+  - type: SR_CORPSE1 #STORMRAVEN CORPSE
+    floorSprite: 350
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: SR_CORPSE2
+    floorSprite: 351
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: SR_CORPSE3
+    floorSprite: 352
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: SR_CORPSE4
+    floorSprite: 353
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: S_CORPSE1 #STORMTALON CORPSE
+    floorSprite: 274
+  - type: S_CORPSE2
+    floorSprite: 275
+  - type: S_CORPSE3
+    floorSprite: 276
+  - type: S_CORPSE4
+    floorSprite: 277
+  - type: SE_CORPSE1 #STORMTALON ENGINE CORPSE
+    floorSprite: 278
+  - type: SE_CORPSE2
+    floorSprite: 279
+  - type: SE_CORPSE3
+    floorSprite: 280
+  - type: SE_CORPSE4
+    floorSprite: 281
+  - type: STR_LTS_CORPSE
+    bigSprite: 292
+    floorSprite: 273
+  - type: STR_RTS_CORPSE
+    bigSprite: 292
+    floorSprite: 272
+  - type: STR_LTT_CORPSE
+    bigSprite: 199
+    floorSprite: 270
+  - type: STR_RTT_CORPSE
+    bigSprite: 199
+    floorSprite: 271
+  - type: DREAD_CORPSE1
+    floorSprite: 86
+  - type: DREAD_CORPSE2
+    floorSprite: 87
+  - type: DREAD_CORPSE3
+    floorSprite: 88
+  - type: DREAD_CORPSE4
+    floorSprite: 89
+  - type: BIKE_CORPSE1
+    floorSprite: 82
+  - type: BIKE_CORPSE2
+    floorSprite: 83
+  - type: BIKE_CORPSE3
+    floorSprite: 84
+  - type: BIKE_CORPSE4
+    floorSprite: 85
+  - type: T_CORPSE1
+    floorSprite: 90
+  - type: T_CORPSE2
+    floorSprite: 91
+    recover: false
+  - type: T_CORPSE3
+    floorSprite: 92
+  - type: T_CORPSE4
+    floorSprite: 93
+  - type: 4_CENT1 #CENTURIUM CORPSE
+    floorSprite: 191
+  - type: 4_CENT2
+    floorSprite: 192
+  - type: 4_CENT3
+    floorSprite: 193
+  - type: 4_CENT4 
+    floorSprite: 194
+  - type: STR_TERMINATOR_CORPSE
+    bigSprite: 207
+    floorSprite: 95
+  - type: STR_MK7_CORPSE
+    bigSprite: 209
+    floorSprite: 97
+  - type: STR_SCOUT_CORPSE
+    bigSprite: 208
+    floorSprite: 96
+  - type: STR_SCOUTH_CORPSE
+    bigSprite: 456
+    floorSprite: 299
+    recover: false	
+  - type: STR_CAPTAIN_CORPSE
+    bigSprite: 210
+    floorSprite: 98
+  - type: STR_TERMINATOR_SARGENT_CORPSE
+    bigSprite: 260
+    floorSprite: 145
+  - type: STR_SARGENT_CORPSE
+    bigSprite: 211
+    floorSprite: 99
+  - type: STR_CHAP_CORPSE
+    bigSprite: 254
+    floorSprite: 135
+  - type: STR_JARMOR_CORPSE
+    bigSprite: 306
+    floorSprite: 171
+  - type: STR_JARMOR_CORPSEM
+    bigSprite: 306
+    floorSprite: 171
+  - type: STR_APOT_CORPSE
+    bigSprite: 212
+    floorSprite: 100
+  - type: STR_TECH_CORPSE
+    bigSprite: 269
+    floorSprite: 151
+  - type: STR_HONOR_CORPSE
+    bigSprite: 255
+    floorSprite: 136
+  - type: STR_LIB_CORPSE
+    bigSprite: 231
+    floorSprite: 117
+crafts:
+  - type: STR_DROP #dropod´s
+    sprite: 38
+  - type: STR_STORMEAGLE
+    sprite: 25
+  - type: STR_FIRESTORM #STORMRAVEN
+    sprite: 27
+  - type: STR_INTERCEPTOR
+    sprite: 26
+  - type: STR_STORMHAWK
+    sprite: 31
+  - type: STR_STORMHAWKS
+    sprite: 100  
+  - type: STR_AVENGER #thunderhawnk Transport
+    sprite: 24
+  - type: STR_TTASS #thunderhawnk Transport ASS
+    sprite: 24
+  - type: STR_TTDEV #thunderhawnk Transport DEV
+    sprite: 24
+  - type: STR_TTSCT #thunderhawnk Transport SCOUT
+    sprite: 24	  
+  - type: STR_SPEEDC
+    sprite: 30
+  - type: STR_CHAPTERARMY
+    sprite: 32
+  - type: STR_SKYRANGER #dropod´s
+    sprite: 23	
+  - type: STR_LIGHTNING #thunderhawnk Type 2
+    sprite: 22
+  - type: STR_THUNDERHAWNK #thunderhawnk Type 1  
+    sprite: 22  
+  - type: STR_OLDTHUNDERHAWNK # OLD thunderhawnk
+    sprite: 22
